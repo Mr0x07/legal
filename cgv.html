@@ -2,12 +2,26 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Findeal – Conditions Générales de Vente et d’Utilisation</title>
+  <title>Findeal – Politique de Confidentialité</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
   <style>
+    /* --- JELLE ROMAN (USE YOUR OWN FILES) --- */
+    @font-face {
+      font-family: "JelleRoman";
+      src: url("Jelle-Roman.woff2") format("woff2"),
+           url("Jelle-Roman.woff") format("woff"),
+           url("Jelle-Roman.otf") format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
     @font-face {
       font-family: "Jelle";
       src: url("Jelle-Regular.woff2") format("woff2"),
@@ -16,46 +30,170 @@
       font-style: normal;
       font-display: swap;
     }
-    :root { --orange:#fa590c; --text-color:#111; --muted:#777; --bg:#fff; --max-width:760px; }
-    * { box-sizing:border-box; }
-    html,body { margin:0; padding:0; }
-    body { font-family:"Poppins",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--text-color); background-color:var(--bg); line-height:1.6; -webkit-font-smoothing:antialiased; }
-    a { color:var(--orange); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .site-header { width:100%; padding:18px 32px; display:flex; align-items:center; justify-content:space-between; }
-    .site-logo { display:flex; align-items:center; gap:8px; font-family:"Jelle","Poppins",sans-serif; font-weight:700; font-size:18px; letter-spacing:0.06em; text-transform:uppercase; color:var(--orange); }
-    .site-nav { display:flex; align-items:center; gap:24px; font-size:13px; font-weight:500; }
-    .site-nav a { color:#222; }
-    .cta-button { padding:8px 18px; border-radius:999px; border:none; background-color:var(--orange); color:#fff; font-size:12px; font-weight:600; cursor:pointer; font-family:"Poppins",sans-serif; letter-spacing:0.04em; text-transform:uppercase; }
+
+    :root {
+      --orange:#fa590c;
+      --text-color:#111111;
+      --muted:#777777;
+      --bg:#ffffff;
+      --max-width:760px;
+    }
+
+    * {
+      box-sizing:border-box;
+    }
+
+    html, body {
+      margin:0;
+      padding:0;
+    }
+
+    body {
+      font-family:"Poppins", sans-serif;
+      color:var(--text-color);
+      background-color:var(--bg);
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    a {
+      color:var(--orange);
+      text-decoration:none;
+    }
+    a:hover {
+      text-decoration:underline;
+    }
+
+    /* --- HEADER --- */
+    .site-header {
+      width:100%;
+      padding:18px 32px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .site-logo {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font-family:"JelleRoman", "Jelle","Poppins",sans-serif;
+      font-weight:700;
+      font-size:18px;
+      letter-spacing:0.06em;
+      text-transform:uppercase;
+      color:var(--orange);
+      cursor:pointer;
+    }
+
+    .site-nav {
+      display:flex;
+      align-items:center;
+      gap:24px;
+      font-size:13px;
+      font-weight:500;
+    }
+
+    .site-nav a {
+      color:#222;
+    }
+
+    .cta-button {
+      padding:8px 18px;
+      border-radius:999px;
+      border:none;
+      background-color:var(--orange);
+      color:#ffffff;
+      font-size:12px;
+      font-weight:600;
+      cursor:pointer;
+      font-family:"Poppins",sans-serif;
+      letter-spacing:0.04em;
+      text-transform:uppercase;
+    }
+
     .cta-button:hover { opacity:0.9; }
-    .page-wrapper { display:flex; justify-content:center; }
-    .page { width:100%; max-width:var(--max-width); padding:16px 24px 64px; }
-    @media (min-width:900px){ .page{ padding-inline:0; } }
-    .page-header { margin-top:32px; margin-bottom:28px; }
-    .page-title-main { font-family:"Jelle","Poppins",sans-serif; font-size:32px; line-height:1.25; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; color:var(--orange); margin:0 0 8px; }
-    .page-meta { font-size:11px; color:var(--muted); }
-    .legal-block,.article { font-size:13px; margin-bottom:32px; }
-    .legal-block p,.article p { margin:0 0 8px; }
-    .legal-block strong { font-weight:600; }
-    .article-title { font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:0.09em; margin-bottom:10px; color:var(--text-color); }
+
+    /* --- PAGE --- */
+    .page-wrapper {
+      display:flex;
+      justify-content:center;
+    }
+
+    .page {
+      width:100%;
+      max-width:var(--max-width);
+      padding:16px 24px 64px;
+    }
+
+    @media (min-width:900px) {
+      .page { padding-inline:0; }
+    }
+
+    .page-header {
+      margin-top:32px;
+      margin-bottom:28px;
+    }
+
+    .page-title-main {
+      font-family:"JelleRoman","Jelle","Poppins",sans-serif;
+      font-size:32px;
+      line-height:1.25;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:0.04em;
+      color:var(--orange);
+      margin:0 0 8px;
+    }
+
+    .page-meta {
+      font-size:11px;
+      color:var(--muted);
+    }
+
+    .article {
+      font-size:13px;
+      margin-bottom:32px;
+    }
+
+    .article-title {
+      font-weight:700;
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:0.09em;
+      margin-bottom:10px;
+      color:var(--text-color);
+    }
+
+    .article p { margin:0 0 8px; }
     .article ul { margin:0 0 8px 18px; padding:0; }
     .article li { margin-bottom:4px; }
+
   </style>
 </head>
+
 <body>
+
 <header class="site-header">
-  <div class="site-logo"><span>Findeal</span></div>
+  <div class="site-logo" onclick="window.location.href='https://findeal.ma'">
+    <span>Findeal</span>
+  </div>
+
   <nav class="site-nav">
-    <a href="#features">Fonctionnalités</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#faq">FAQ</a>
-    <a href="#tarifs">Tarifs</a>
-    <button class="cta-button" type="button">Télécharger l’app</button>
+    <a href="https://findeal.ma">Fonctionnalités</a>
+    <a href="https://findeal.ma">Pricing</a>
+    <a href="https://findeal.ma">FAQ</a>
+    <a href="https://findeal.ma">Tarifs</a>
+    <button class="cta-button" type="button" onclick="window.location.href='https://findeal.ma'">
+      Télécharger l’app
+    </button>
   </nav>
 </header>
+
 <main class="page-wrapper">
   <div class="page">
-    <header class="page-header">
+
+  <header class="page-header">
       <h1 class="page-title-main">CONDITIONS GÉNÉRALES DE VENTE ET D’UTILISATION</h1>
       <p class="page-meta">(Findeal – REWARDS IT S.A.R.L.)<br />Dernière mise à jour : 21/10/2025</p>
     </header>
@@ -289,5 +427,6 @@
 
   </div>
 </main>
+
 </body>
 </html>
